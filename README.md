@@ -1,7 +1,7 @@
-<div align="center"># pcmazzters</div>
+# pcmazzters
 ## automate system of service center for electronics repair
 ***
-<div align="center">Authorization</div>
+**Authorization**
  
 ![Image alt](https://github.com/Erkenntnis/pcmazzters/raw/master/screenshots/login.png)
 ***
