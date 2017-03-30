@@ -1,4 +1,4 @@
-# pcmazzters
+<div align="center"># pcmazzters</div>
 ## automate system of service center for electronics repair
 ***
 <div align="center">Authorization</div>
