@@ -28,8 +28,8 @@
 ***
 **User's profile**
  
-![Image alt](https://github.com/Erkenntnis/pcmazzters/raw/master/screenshots/complete.png)
+![Image alt](https://github.com/Erkenntnis/pcmazzters/raw/master/screenshots/profile.png)
 ***
 **About**
  
-![Image alt](https://github.com/Erkenntnis/pcmazzters/raw/master/screenshots/complete.png)
+![Image alt](https://github.com/Erkenntnis/pcmazzters/raw/master/screenshots/about.png)
