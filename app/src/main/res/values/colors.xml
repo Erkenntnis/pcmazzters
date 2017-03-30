@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorDarkBlue">#3F51B5</color>
+    <color name="colorLightBlue">#4fc4f6</color>
+    <color name="colorBlue">#35aadc</color>
+    <color name="colorBlueFacebook">#1a4c95</color>
+    <color name="colorLightBlueFacebook">#3468af</color>
+    <color name="colorDeepBlue">#303F9F</color>
+    <color name="colorPink">#FF4081</color>
+    <color name="colorDarkGreen">#119796</color>
+    <color name="colorDarkGrey">#2c2d32</color>
+    <color name="colorVeryDarkGreen">#0d6f6e</color>
+    <color name="colorLightGrey">#343a41</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+
+</resources>

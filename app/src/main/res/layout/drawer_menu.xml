@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawerMenu_layout">
+
+    <include layout="@layout/activity_menu"/>
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:id="@+id/drawerMenu"
+        android:orientation="vertical"
+        android:background="#606060"
+        android:layout_below="@+id/action_bar"
+        android:layout_gravity="start"
+        android:gravity="center">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Orders"
+            android:textColor="#ffffff"
+            android:id="@+id/menuDrawer1"
+            android:onClick="menuDrawer1"
+            android:background="#707070"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Complete Order"
+            android:textColor="#ffffff"
+            android:id="@+id/menuDrawer2"
+            android:onClick="menuDrawer2"
+            android:layout_marginTop="30dp"
+            android:background="#707070"
+            />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Order"
+        android:textColor="#ffffff"
+        android:id="@+id/menuDrawer3"
+        android:onClick="menuDrawer3"
+        android:layout_marginTop="30dp"
+        android:background="#707070"
+        />
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+            android:textColor="#ffffff"
+        android:id="@+id/menuDrawer4"
+            android:onClick="menuDrawer4"
+            android:layout_marginTop="30dp"
+            android:background="#707070"
+            />
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About"
+            android:textColor="#ffffff"
+        android:id="@+id/menuDrawer5"
+            android:onClick="menuDrawer5"
+            android:layout_marginTop="30dp"
+            android:background="#707070"
+            />
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log out"
+            android:textColor="#ffffff"
+        android:id="@+id/menuDrawer6"
+            android:onClick="menuDrawer6"
+            android:layout_marginTop="30dp"
+            android:background="#707070"
+            />
+    </LinearLayout>
+</android.support.v4.widget.DrawerLayout>

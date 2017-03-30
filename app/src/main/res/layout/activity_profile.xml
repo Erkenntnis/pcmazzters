@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pcmazzters.activity.ProfileActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/action_bar_profile"
+        android:elevation="4dp"
+        android:background="#000000"
+        android:navigationIcon="@color/colorWhite"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearProfile"
+        android:layout_below="@+id/action_bar_profile"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My orders for the current month:"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:id="@+id/textViewProfile"
+            android:layout_marginTop="10dp"
+            />
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:id="@+id/listViewProfile"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorBlack"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total cost:"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:id="@+id/textViewProfileCostText"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="price"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:id="@+id/textViewProfileCost"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="55dp"
+        />
+</RelativeLayout>

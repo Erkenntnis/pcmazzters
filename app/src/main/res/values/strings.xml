@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">fastrepair</string>
+    <string name="opened">opened</string>
+    <string name="closed">closed</string>
+    <string name="actionbar_menu">Menu</string>
+
+</resources>

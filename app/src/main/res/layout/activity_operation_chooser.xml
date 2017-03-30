@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_operation_chooser"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pcmazzters.activity.new_orders.OperationChooserActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/action_bar_operation_chooser"
+        android:elevation="4dp"
+        android:background="#000000"
+        android:navigationIcon="@color/colorWhite"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearOperationChoose"
+        android:layout_below="@+id/action_bar_operation_chooser"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Operation list:"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:id="@+id/textViewChangeStatus"
+            android:layout_marginTop="10dp"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listViewOperationChooser"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorBlack"
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:text="Complete"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonOperationChoose"
+        android:background="#000000"
+        android:onClick="buttonChooseOperation"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        />
+
+
+</RelativeLayout>
